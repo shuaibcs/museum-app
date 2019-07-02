@@ -1,35 +1,61 @@
 <!DOCTYPE html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <title>Museum Guide</title>
 </head>
+        <style>
+            body {
+                margin: 0;
+                padding: 2rem 0;
+                width: 100%;
+                background: #FFBA00;
+                font-family: 'Inconsolata', monospace;
+                text-align: center;
+            }
 
-    <style>
-        body {
-            display: block;
-            margin: 8px;
-        }
-        p {
-            display: block;
-        }
-        .artObject {
-            max-width: 80%;
-            max-height: 20rem;
-            margin: 1rem;
-        }
-        .footer {
-            display: block;
-            margin: 3rem;
-            font-size: 1.2rem;
-        }
-    </style>
+            main {
+                background: white;
+                width: 90%;
+                margin: auto;
+                border-radius: 5px;
+                padding: 2rem 0;
+            }
 
+            h1 {
+                margin: 3rem 1rem 6rem 1rem;
+            }
+
+            h2 {
+                margin: auto 2rem;
+            }
+
+            footer {
+                margin: 3rem;
+                font-size: 1.2rem;
+            }
+
+            #gallery {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: flex-start;
+            }
+
+            .artObject {
+                max-width: 80%;
+                max-height: 20rem;
+                margin: 1rem;
+            }
+        </style>
 <body>
     <main>
         <h1>Shuaib's Mobile Museum App</h1>
         <section id="gallery">
             <h2>Gallery</h2>
             <a href="./pages/detail-pages.html"> 
-                <img alt="Painting with vaiolin" class="artObject" src="https://lh3.googleusercontent.com/V3sjNgCA_Jssjm0sTKaPZeOwCv_vAPpjllrAF-yAB8UkqIlc6UX_jxJmxH_axVHTHxlK1E7Slecg8K5bIvSbDlw0zg=s0">
+                <img src="https://lh3.googleusercontent.com/V3sjNgCA_Jssjm0sTKaPZeOwCv_vAPpjllrAF-yAB8UkqIlc6UX_jxJmxH_axVHTHxlK1E7Slecg8K5bIvSbDlw0zg=s0" class="artObject" alt="Painting with vaiolin">  
             </a>
             <a href="./pages/detail-pages.html"> 
                 <img alt="Painting with vaiolin" class="artObject" src="https://lh3.googleusercontent.com/nfJiRConmXf4QR1bK3-E456qIEp2bYtuemyy3P3t7PonntyGJ8iPzFNKJPhZFCSSmJmj2AHePE4V1xl3BOz2NT8mfbNg=s0">
@@ -44,9 +70,9 @@
                 <img alt="Painting with vaiolin" class="artObject" src="https://lh3.googleusercontent.com/c9fkkahysXgTwWZplxo4NJQ-vPvZpJ1xlSRZ8HOtP55GL35EJsW_8sc7JGo17DTKn17d4ZLrgpgHnhYSfrSc0SSjo14=s0">
             </a>
         </section>
-        <footer>
-            <p>Made with ❤ at Codaisseur</p>
-        </footer>
     </main>
+    <footer>
+        <p>Made with ❤ at Codaisseur</p>
+    </footer>
 </body>
 <html>
