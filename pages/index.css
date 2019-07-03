@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 2rem 0;
     width: 100%;
-    background: #FFBA00;
+    background: #FFBA01;
     font-family: 'Inconsolata', monospace;
     text-align: center;
 }
@@ -41,5 +41,5 @@ footer {
     max-width: 80%;
     max-height: 20rem;
     margin: 1rem;
-}
+} 
 
